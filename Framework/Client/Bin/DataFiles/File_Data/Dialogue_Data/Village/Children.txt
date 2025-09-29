@@ -1,0 +1,12 @@
+0 PLAYER 0 혹시 멋진 등딱지를 들고 다니는 상어 봤니?
+0 NPC_CHILDREN 1 (초면에 반말?)
+0 NPC_CHILDREN 0 이상한 쓰레기를 물고 가는 상어라면 봤어요!
+0 PLAYER 1 쓰레기가 아니라 내 집이야!
+0 PLAYER 7 어디로 갔는지 알 수 있을까?
+0 NPC_CHILDREN 0 아마 밖으로 나갔을거예요
+0 PLAYER 0 밖?
+0 NPC_CHILDREN 0 엄마가 밖에 나가지말라고 해서 저흰 잘 몰라요
+0 NPC_CHILDREN 1 저기 구석에 성게 아저씨한테 물어보세요!
+0 PLAYER 4 고마워!
+1 NPC_CHILDREN 0 히히 재밌다
+1 NPC_CHILDREN 1 히히 재밌어

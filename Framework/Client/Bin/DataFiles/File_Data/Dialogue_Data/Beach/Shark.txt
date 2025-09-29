@@ -1,0 +1,9 @@
+0 NPC_SHARK 1 안녕하세요 선생님
+0 NPC_SHARK 1 아시는지 모르겠지만 세금이 많이 밀리셨어요
+0 NPC_SHARK 1 혹시 지금 세금 납부 가능하실까요?
+0 PLAYER 7 저희는 취준생인데요..?
+0 NPC_SHARK 1 아, 취업 준비...
+0 NPC_SHARK 0 하하하, 그건 내 사정이 아니야
+0 PLAYER 10 네?
+0 NPC_SHARK 1 꼬마야, 결국 못 낸다는거지?
+0 NPC_SHARK 1 그럼 네 집이라도 가져가야겠다

@@ -1,0 +1,10 @@
+0 PLAYER 11 안녕하세요
+0 PLAYER 11 치탄씨의 스승님이 맞나요?
+0 NPC_TOPODA 0 넌 뭐야
+0 PLAYER 11 치탄씨가 스승님을 소개시켜준다고 하셔서...
+0 NPC_TOPODA 0 치탄이 보낼 정도면 실력은 있다는거겠지
+0 NPC_TOPODA 0 나와 함께 싸우는 그 기술을 쓸 수 있도록 허락하지
+0 PLAYER 4 정말요? 감사합니다!
+0 NPC_TOPODA 0 위급할 때 사용하도록 해
+0 PLAYER 0 네!
+1 NPC_TOPODA 0 어서 가봐

@@ -1,0 +1,60 @@
+#include "pch.h"
+#include "Gumpounder_State_AttackOverhead.h"
+#include "GameInstance.h"
+#include "Enemy_Gumpounder.h"
+
+
+CGumpounder_State_AttackOverhead::CGumpounder_State_AttackOverhead()
+{
+}
+
+HRESULT CGumpounder_State_AttackOverhead::Initialize(void* pObj)
+{
+#ifdef _DEBUG
+	m_strStateName = "Aggroed";
+#endif
+
+	m_iPriorityLevel = 1;
+	m_fMaxCoolTime = 0.f;
+
+	m_pModel = static_cast<CModel*>(static_cast<CEnemy_Gumpounder*>(pObj)->Find_Component(TEXT("Com_Model")));
+
+	return S_OK;
+}
+
+void CGumpounder_State_AttackOverhead::Enter(void* pObj)
+{	
+	m_pModel->SetUp_Animation((_uint)GUMPOUNDER_ANIM_INDEX::ATKOVERHEAD2, false);
+	//CGameInstance::GetInstance()->Play_Sound(L"Sardine Aggro 1.wav", (_uint)SOUND_CHANNEL::ENEMY_VOICE1, 0.5f);
+	__super::Enter(pObj);
+}
+
+void CGumpounder_State_AttackOverhead::Update(_float fTimeDelta, void* pObj)
+{
+	if (!m_pModel->Get_IsPlaying((_uint)GUMPOUNDER_ANIM_INDEX::ATKOVERHEAD2)) {
+		static_cast<CEnemy_Gumpounder*>(pObj)->Select_Action();
+	}
+
+	__super::Update(fTimeDelta, pObj);
+}
+
+void CGumpounder_State_AttackOverhead::Exit(void* pObj)
+{
+	__super::Exit(pObj);
+}
+
+CGumpounder_State_AttackOverhead* CGumpounder_State_AttackOverhead::Create(void* pArg)
+{
+	CGumpounder_State_AttackOverhead* pInstance = new CGumpounder_State_AttackOverhead();
+	if (FAILED(pInstance->Initialize(pArg)))
+	{
+		MSG_BOX("Failed To Clone : CFSM");
+		Safe_Release(pInstance);
+	}
+	return pInstance;
+}
+
+void CGumpounder_State_AttackOverhead::Free()
+{
+	__super::Free();	
+}

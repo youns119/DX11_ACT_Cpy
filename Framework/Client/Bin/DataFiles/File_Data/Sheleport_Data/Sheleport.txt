@@ -1,0 +1,8 @@
+0 뉴카르시니아 ../Bin/DataFiles/Atmosphere/Village.atmosphere 중심부
+1 필드 ../Bin/DataFiles/Atmosphere/Field.atmosphere 공터
+2 필드 ../Bin/DataFiles/Atmosphere/Field_Azit.atmosphere 아지트
+3 필드 ../Bin/DataFiles/Atmosphere/Field.atmosphere 입구                                               
+4 필드 ../Bin/DataFiles/Atmosphere/Field.atmosphere 구로디지털단지역
+5 필드 ../Bin/DataFiles/Atmosphere/Field_Pinball.atmosphere 배 입구
+6 게무덤 ../Bin/DataFiles/Atmosphere/CrabTomb.atmosphere 게무덤
+7 하수구 ../Bin/DataFiles/Atmosphere/Club.atmosphere 클럽

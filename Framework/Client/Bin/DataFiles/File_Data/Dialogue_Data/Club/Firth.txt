@@ -1,0 +1,11 @@
+0 PLAYER 6 (정신이 하나도 없네...)
+0 PLAYER 0 혹시 못생긴 갯강구랑 오징어 못보셨나요?
+0 NPC_FIRTH 2 그냥 알려줄 순 없지
+0 NPC_FIRTH 5 일단 짐은 내려놓고 춤을 추자고!
+0 PLAYER 11 네?
+1 PLAYER 18 이제 알려주세요...
+1 NPC_FIRTH 5 놀아줘서 고마워
+1 NPC_FIRTH 4 얼핏 듣기로는 게 무덤으로 간다고 들었어
+1 NPC_FIRTH 4 너한테 필요해보이는 기술을 하나 알려줄게
+1 PLAYER 0 감사합니다
+2 NPC_FIRTH 5 얼른 가봐 친구!

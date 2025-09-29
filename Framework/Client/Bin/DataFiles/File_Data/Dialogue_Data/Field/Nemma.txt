@@ -1,0 +1,10 @@
+0 NPC_NEMMA 3 안녕, 꼬마야
+0 NPC_NEMMA 3 이 구역에서 제일 가는 조그만 주점에 온 걸 환영한다!
+0 PLAYER 0 롤랜드를 잡으려면 어디로 가야하나요?
+0 NPC_NEMMA 2 헉
+0 NPC_NEMMA 0 롤랜드를 처리해준다고?
+0 NPC_NEMMA 3 여기서 나가서 왼쪽으로 가면 길을 알 수 있을거야
+0 PLAYER 0 감사합니다
+0 NPC_NEMMA 0 꼭 성공했으면 좋겠다!
+0 NPC_NEMMA 0 시간될 때 주점에 와, 무료로 감칠맛을 충전해줄게!
+1 NPC_NEMMA 2 어서와!

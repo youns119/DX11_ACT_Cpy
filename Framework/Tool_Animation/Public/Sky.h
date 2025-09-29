@@ -1,0 +1,58 @@
+#pragma once
+
+#include "ToolAnimation_Defines.h"
+#include "GameObject.h"
+
+BEGIN(Engine)
+
+class CShader;
+class CTexture;
+class CVIBuffer_Cube;
+
+END
+
+BEGIN(ToolAnimation)
+
+class CSky final 
+	: public CGameObject
+{
+	using super = CGameObject;
+
+public:
+	struct DESC
+	{
+		_uint iTextureIndex {};
+	};
+
+private:
+	CSky(ID3D11Device* pDevice, ID3D11DeviceContext* pContext);
+	CSky(const CSky& Prototype);
+	virtual ~CSky() = default;
+
+public:
+	virtual HRESULT Initialize_Prototype() override;
+	virtual HRESULT Initialize(void* pArg) override;
+	virtual void Priority_Update(_float fTimeDelta) override;
+	virtual void Update(_float fTimeDelta) override;
+	virtual void Late_Update(_float fTimeDelta) override;
+	virtual HRESULT Render() override;
+
+private:
+	CShader* m_pShaderCom{};
+	CTexture* m_pTextureCom{};
+	CVIBuffer_Cube* m_pVIBufferCom{};
+
+private:
+	_uint m_iTextureIndex{};
+
+public:
+	HRESULT Ready_Components();
+	HRESULT Bind_ShaderResources();
+
+public:
+	static CSky* Create(ID3D11Device* pDevice, ID3D11DeviceContext* pContext);
+	virtual CCloneable* Clone(void* pArg) override;
+	virtual void Free() override;
+};
+
+END

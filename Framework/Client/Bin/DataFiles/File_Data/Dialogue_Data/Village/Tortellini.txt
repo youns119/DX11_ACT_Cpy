@@ -1,0 +1,23 @@
+0 NPC_TORTELLINI 0 뉴카르시니아에 오신 것을 환영합니다
+0 NPC_TORTELLINI 0 저는 도시 손님 맞이꾼 토르텔리니입니다
+0 NPC_TORTELLINI 0 하루에 새로운 방문객을 두명 맞이하게 되어 매우 기쁩니다!
+0 PLAYER 0 많은건가요?
+0 NPC_TORTELLINI 0 예전엔 북적이는 도시였죠
+0 NPC_TORTELLINI 0 롤랜드가 시장을 차지한 이후로는...
+0 PLAYER 10 잠깐, 두명이라고 하셨나요?
+0 PLAYER 10 다른 한명은 멋진 등딱지를 들고 다니는 상어였나요?
+0 NPC_TORTELLINI 0 아, 친구분이신가요?
+0 PLAYER 1 전혀 아니예요! 그 자식은 도둑놈이라고요!
+0 NPC_TORTELLINI 0 오호, 그럼 불구대천의 원수로군요!
+0 PLAYER 1 그놈이 어디로 갔는지 말해 주실 수 있나요??
+0 NPC_TORTELLINI 0 저는 이 자리에만 있기때문에 어디로 갔는지는 보지못했어요
+0 PLAYER 15 그럼, 누구한테 물어봐야하죠?
+0 NPC_TORTELLINI 0 롤랜드라면 봤을 수도 있습니다
+0 NPC_TORTELLINI 0 하지만 말해줄지는 모르겠군요
+0 NPC_TORTELLINI 0 아이들에게 물어보는건 어떨까요?
+0 PLAYER 0 네, 정말 감사합니다! 전부 다 확인해볼게요!
+0 NPC_TORTELLINI 0 왠지 당신은 이곳 저곳을 돌아다니게 될 것 같군요
+0 NPC_TORTELLINI 0 그런 당신을 위해 한가지 기술을 알려드리겠습니다
+0 PLAYER 0 와 감사합니다
+1 NPC_TORTELLINI 0 전 한번 맞이한 손님과는 대화하지 않습니다
+1 PLAYER 14 ........

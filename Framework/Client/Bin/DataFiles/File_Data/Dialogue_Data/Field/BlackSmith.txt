@@ -1,0 +1,15 @@
+0 PLAYER 0 안녕하세요
+0 PLAYER 0 커다란 싸가지 상어가 고철 받고 등딱지 팔려고 여기 왔었나요?
+0 NPC_BLACKSMITH 0 상어는 아무도 안 왔어
+0 PLAYER 14 .......
+0 NPC_BLACKSMITH 0 네 집게발에 쥔 금속 조각 참 멋지구리하구만
+0 NPC_BLACKSMITH 0 훌륭한 잠재력이 보여
+0 NPC_BLACKSMITH 0 나와 함께 광을 내 볼 마음이 있나, 고철?
+0 PLAYER 15 상어를 못찾으면 의미가 없어요...
+0 NPC_BLACKSMITH 0 생각이 바뀌면 찾아와
+0 NPC_BLACKSMITH 0 그 금속 조각을 더 멋지게 만들어주지
+0 PLAYER 15 네...
+0 NPC_BLACKSMITH 0 무슨 사연이 있나본데
+0 NPC_BLACKSMITH 0 이걸로 그 금속 조각을 알차게 사용해봐
+1 NPC_BLACKSMITH 0 유물 모시깽
+2 NPC_BLACKSMITH 0 재료가 부족해

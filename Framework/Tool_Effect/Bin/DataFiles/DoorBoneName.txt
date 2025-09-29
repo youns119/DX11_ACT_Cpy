@@ -1,0 +1,83 @@
+WideShortPlusTile (Doorways)
+- Door
+- Door (1)
+- Door (2)
+- Door (3)
+
+HallwayTileTypeA
+- Door1
+- Door1 (1)
+- Door1 (2)
+- Door1 (3)
+- WideDoor
+
+HallwayTileTypeB
+- Door1 (4)
+- Door1 (5)
+- Door1 (6)
+- WideDoor (1)
+
+HallwayTileTypeC
+- Door1 (7)
+- Door1 (8)
+- Door1 (9)
+- Door1 (10)
+- WideDoor (2)
+
+HallwayTileTypeD
+- Door1 (10)
+- Door1 (11)
+- Door1 (12)
+- WideDoor (3)
+
+
+KitchenTile (Doors)
+- Door
+- Door (1)
+- Door (2)
+- Door (3)
+- Door (4)
+- Door (5)
+
+LibraryTile (Doors)
+- LibraryDoor
+- LibraryDoor (1)
+- LibraryDoor (2)
+- LibraryDoor (3)
+- LibraryDoor (4)
+- LibraryWideDoor
+- LibraryWideDoor (1)
+
+LivigRoomTile (Doors)
+- Door1 (11)
+- Door1 (12)
+- Door1 (13)
+- Door1 (14)
+- WideDoor (3)
+
+ManorStairTile
+- WideDoor
+- WideDoor (1)
+
+ManorStartRoom (Doorways)
+- FrontBottom1
+- FrontBottom2
+- FrontTop1
+- FrontTop2
+- LeftBottom1
+- LeftBottom1.001
+- LeftBottom2
+- LeftTop2
+- RightBottom1
+- RightBottom2
+- RightTop1
+- RightTop2
+
+WindowTile (Doors.003)
+- Door (6)
+- Door (7)
+- Door (8)
+- Door (9)
+- Door (10)
+
+

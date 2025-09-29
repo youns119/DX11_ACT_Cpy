@@ -1,0 +1,79 @@
+#pragma once
+
+#include "Client_Defines.h"
+#include "GameObject.h"
+#include "IParried.h"
+
+BEGIN(Engine)
+class CCollider;
+END
+
+BEGIN(Client)
+
+class CInkerton_StretchedNutcracker final : public CGameObject, public IParried
+{
+	using super = CGameObject;
+
+public:
+	struct DESC
+	{
+		CGameObject::GAMEOBJECT_DESC PartObjectDesc{};
+		const _float4x4* pSocketMatrix{ nullptr };
+		_float fDamage{ 10.f };
+		CGameObject* pOwner;
+	};
+
+private:
+	CInkerton_StretchedNutcracker(ID3D11Device* pDevice, ID3D11DeviceContext* pContext);
+	CInkerton_StretchedNutcracker(const CInkerton_StretchedNutcracker& Prototype);
+	virtual ~CInkerton_StretchedNutcracker() = default;
+
+public:
+	virtual HRESULT Initialize_Prototype() override;
+	virtual HRESULT Initialize(void* pArg) override;
+	virtual void Priority_Update(_float fTimeDelta) override;
+	virtual void Update(_float fTimeDelta) override;
+	virtual void Late_Update(_float fTimeDelta) override;
+	virtual HRESULT Render() override;
+
+private:
+	HRESULT Ready_Components();
+
+public:
+	virtual void On_CollisionEnter(CGameObject* pOther, _uint iGroup) override;
+	virtual void On_Collision(CGameObject* pOther, _uint iGroup) override;
+	virtual void On_CollisionExit(CGameObject* pOther, _uint iGroup) override;
+
+public:
+	void Clear_GrabObject() { m_pGrabObject = nullptr; }
+	CGameObject* Get_GrabObject() { return m_pGrabObject; }
+
+public:
+	void Parried() override;
+
+public:
+	virtual CGameObject* Get_Parried() override { return m_pOwner; }
+
+public:
+	CCollider* Get_Collider() { return m_pColliderCom; }
+
+private:
+	CGameObject*		m_pOwner{ nullptr };
+	CCollider*			m_pColliderCom{ nullptr };	
+	_float4x4			m_pGrabMatrix{};
+	const _float4x4*	m_pSocketMatrix{ nullptr };	
+
+private:
+	_float				m_fDamage{ 10.f };
+
+private:
+	CGameObject*		m_pGrabObject{ nullptr };
+
+
+public:
+	static CInkerton_StretchedNutcracker* Create(ID3D11Device* pDevice, ID3D11DeviceContext* pContext);
+	virtual CCloneable* Clone(void* pArg) override;
+	virtual void Free() override;		
+};
+
+END

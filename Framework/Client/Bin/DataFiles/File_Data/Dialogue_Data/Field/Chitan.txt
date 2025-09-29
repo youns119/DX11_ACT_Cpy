@@ -1,0 +1,20 @@
+0 PLAYER 0 안녕하세요
+0 PLAYER 0 여기로 가면 롤랜드가 있나요?
+0 NPC_CHITAN 0 반갑다, 난 치탄이라고한다
+0 NPC_CHITAN 0 무슨 이유로 롤랜드를 찾는지는 모르겠지만
+0 NPC_CHITAN 0 너같은 큐티뽀짝크릴새우가 올만한 곳이 아니야
+0 NPC_CHITAN 0 집으로 돌아가
+0 PLAYER 2 그 집을 찾기 위해 온거라고요!
+0 NPC_CHITAN 2 음
+0 NPC_CHITAN 0 무슨 일인지는 모르겠지만, 위까지 올라온다면 인정해주지
+0 PLAYER 13 (자기가 뭔데 날 인정해준다는거야...)
+1 NPC_CHITAN 2 이걸 해내다니, 무시해서 미안하군
+1 NPC_CHITAN 0 같이 올라가서 롤랜드를 잡자고
+1 NPC_CHITAN 0 사과의 의미로 이 기술을 알려주도록 하지
+2 NPC_CHITAN 0 롤랜드는 놓친건가?
+2 PLAYER 0 게 무덤이라는 곳으로 갔다고 하더라고요
+2 NPC_CHITAN 2 음
+2 NPC_CHITAN 0 좋아 게 무덤 앞에 있는 내 스승님을 소개시켜주지
+3 NPC_CHITAN 0 스승님은 앞에 있다
+3 PLAYER 0 같이 안가세요?
+3 NPC_CHITAN 0 스승님을 볼 면목이 없어
